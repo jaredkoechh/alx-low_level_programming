@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - prints a name followed by a new line 
- * @argc: arguement count
- * @argv: array of pointers to argc
- * Return: 0
- **/
+* main -  writes program name
+* @argc: arguement count
+* @argv: array of pointers to CLI arguement
+* Return: 0
+**/
 
 int main(int argc, char *argv[])
 {
