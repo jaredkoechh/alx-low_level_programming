@@ -1,14 +1,16 @@
 #include <stdio.h>
 
 /**
- *main - prints the no. of arg
- *@argc: argument count
- *@argv: array of pointers to CLI argument
- *Return: 0
- **/
+* main -  Prints number of arguements
+* @argc: arguement count
+* @argv: array of pointers to CLI arguement
+* Return: 0
+**/
 
 int main(int argc, char *argv[])
 {
-printf("argc %d", argc);
-return (0);
+
+	*argv = *argv;
+	printf("%d\n", argc - 1);
+	return (0);
 }
